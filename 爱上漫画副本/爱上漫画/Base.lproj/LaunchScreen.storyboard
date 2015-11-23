@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HOd-tv-Vye"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wfu-Ij-xCa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LKO-xE-cge">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="启动.png" translatesAutoresizingMaskIntoConstraints="NO" id="JiV-Tm-NTs">
+                                <rect key="frame" x="107" y="268" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="1C0-wu-XmU"/>
+                                    <constraint firstAttribute="height" constant="200" id="bhi-a1-o4e"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JiV-Tm-NTs" firstAttribute="centerY" secondItem="LKO-xE-cge" secondAttribute="centerY" id="VDj-09-jLb"/>
+                            <constraint firstItem="JiV-Tm-NTs" firstAttribute="centerX" secondItem="LKO-xE-cge" secondAttribute="centerX" id="mR8-6t-Bsl"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276" y="355"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="启动.png" width="279" height="241"/>
+    </resources>
+</document>
